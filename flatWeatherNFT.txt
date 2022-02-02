@@ -2887,13 +2887,13 @@ contract WeatherNFT is ERC721, Ownable, ChainlinkClient {
             setChainlinkToken(_link);
         }
         weatherFeedAddress = _weatherFeed;
-        weatherToWeatherURI["Thunderstorm"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Drizzle"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Rain"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Snow"] = "https://ipfs.io/ipfs/QmaeYdJ8EydzUGdGQGkPNkSBEQUmwRmAv2QWq1VTfsfrdk";
-        weatherToWeatherURI["Atmosphere"] = "https://ipfs.io/ipfs/QmbNEeSa8pZrepYhGnnhSCmABZXymvc7YR5JKFT7TuYuYY";
-        weatherToWeatherURI["Clear"] = "https://ipfs.io/ipfs/QmcKEV1xJQ3ZCyPsDPJHsuEZnF95hNZf8S3rBEvzCKwjof";
-        weatherToWeatherURI["Clouds"] = "https://ipfs.io/ipfs/QmbNEeSa8pZrepYhGnnhSCmABZXymvc7YR5JKFT7TuYuYY";
+        weatherToWeatherURI["Thunderstorm"] = "https://ipfs.io/ipfs/QmPAD7umQpixJH61YqVgy9XTZKWTLKvF4SFprWspx5887X";
+        weatherToWeatherURI["Drizzle"] = "https://ipfs.io/ipfs/QmQvyuqgGkoJzce4kr7f6Nb3d8QzkCpx7CgDAHifZ2ukVw";
+        weatherToWeatherURI["Rain"] = "https://ipfs.io/ipfs/QmQvyuqgGkoJzce4kr7f6Nb3d8QzkCpx7CgDAHifZ2ukVw";
+        weatherToWeatherURI["Snow"] = "https://ipfs.io/ipfs/QmTEAxjPFrcLfqZfSnGcuQx4Z4thgvf99hLgk57P1pXsQS";
+        weatherToWeatherURI["Atmosphere"] = "https://ipfs.io/ipfs/QmcpjfRpvTRWs6chfsmCp491k9Sfp8BZb8JH97yeuFxnyQ";
+        weatherToWeatherURI["Clear"] = "https://ipfs.io/ipfs/QmX4KN3YqYERjWGwMf6TAY1vzRydNJmtEtk8hLgNisDv8n";
+        weatherToWeatherURI["Clouds"] = "https://ipfs.io/ipfs/QmczrucJS3M59JEz2LyjkssAtsoeVmC2vTCNV7bKidCfB9";
         overRide = false;
         overRideTokenIdToWeatherURI[0] = weatherToWeatherURI["Rain"];
         overRideTokenIdToWeatherURI[1] = weatherToWeatherURI["Clear"];

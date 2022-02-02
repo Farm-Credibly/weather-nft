@@ -3,10 +3,10 @@
 <br/>
 <p align="center">
 <a href="https://chain.link" target="_blank">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/weather-nft/main/weather-ipfs/img/cloud-chainlink.gif" width="175" alt="Chainlink Cloud">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/weather-nft/main/weather-ipfs/img/rain-chainlink.gif" width="175" alt="Chainlink Rain">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/weather-nft/main/weather-ipfs/img/sun-chainlink.gif" width="175" alt="Chainlink Sun">
-<img src="https://raw.githubusercontent.com/PatrickAlphaC/weather-nft/main/weather-ipfs/img/snow-chainlink.gif" width="175" alt="Chainlink Snow">
+<img src="https://raw.githubusercontent.com/Farm-Credibly/weather-nft/main/weather-ipfs/img/cloud-chainlink.gif" width="175" alt="Chainlink Cloud">
+<img src="https://raw.githubusercontent.com/Farm-Credibly/weather-nft/main/weather-ipfs/img/rain-chainlink.gif" width="175" alt="Chainlink Rain">
+<img src="https://raw.githubusercontent.com/Farm-Credibly/weather-nft/main/weather-ipfs/img/sun-chainlink.gif" width="175" alt="Chainlink Sun">
+<img src="https://raw.githubusercontent.com/Farm-Credibly/weather-nft/main/weather-ipfs/img/snow-chainlink.gif" width="175" alt="Chainlink Snow">
 </a>
 </p>
 <br/>

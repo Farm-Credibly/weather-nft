@@ -37,13 +37,13 @@ contract Consensus2021ChainlinkWeatherNFT is ERC721, Ownable, ChainlinkClient {
             setChainlinkToken(_link);
         }
         weatherFeedAddress = _weatherFeed;
-        weatherToWeatherURI["Thunderstorm"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Drizzle"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Rain"] = "https://ipfs.io/ipfs/QmP3TpPig2St3nTwvi9TFAGdv6YTew5k4pmC1yFtaLwFFo";
-        weatherToWeatherURI["Snow"] = "https://ipfs.io/ipfs/QmaeYdJ8EydzUGdGQGkPNkSBEQUmwRmAv2QWq1VTfsfrdk";
-        weatherToWeatherURI["Atmosphere"] = "https://ipfs.io/ipfs/QmbNEeSa8pZrepYhGnnhSCmABZXymvc7YR5JKFT7TuYuYY";
-        weatherToWeatherURI["Clear"] = "https://ipfs.io/ipfs/QmcKEV1xJQ3ZCyPsDPJHsuEZnF95hNZf8S3rBEvzCKwjof";
-        weatherToWeatherURI["Clouds"] = "https://ipfs.io/ipfs/QmbNEeSa8pZrepYhGnnhSCmABZXymvc7YR5JKFT7TuYuYY";
+        weatherToWeatherURI["Thunderstorm"] = "https://ipfs.io/ipfs/QmNaLPau9Wym35iSnTxNkNK8fUZjL58m1SHdmzJTryD4UE";
+        weatherToWeatherURI["Drizzle"] = "https://ipfs.io/ipfs/QmdceA5Y8pHhtjMF3LeVugg3aGDfAASyWFn7Z3E9pyGaNt";
+        weatherToWeatherURI["Rain"] = "https://ipfs.io/ipfs/QmNaLPau9Wym35iSnTxNkNK8fUZjL58m1SHdmzJTryD4UE";
+        weatherToWeatherURI["Snow"] = "https://ipfs.io/ipfs/QmbkGiiXrWqqkKo26uAgwkHZJu8VarFnAubvXZ1cmABea1";
+        weatherToWeatherURI["Atmosphere"] = "https://ipfs.io/ipfs/QmbkGiiXrWqqkKo26uAgwkHZJu8VarFnAubvXZ1cmABea1";
+        weatherToWeatherURI["Clear"] = "https://ipfs.io/ipfs/QmdceA5Y8pHhtjMF3LeVugg3aGDfAASyWFn7Z3E9pyGaNt";
+        weatherToWeatherURI["Clouds"] = "https://ipfs.io/ipfs/QmczrucJS3M59JEz2LyjkssAtsoeVmC2vTCNV7bKidCfB9";
         overRide = true;
         overRideTokenIdToWeatherURI[0] = weatherToWeatherURI["Rain"];
         overRideTokenIdToWeatherURI[1] = weatherToWeatherURI["Clear"];
