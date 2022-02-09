@@ -10,7 +10,7 @@ import "./interfaces/IWeatherFeed.sol";
 import "@chainlink/contracts/src/v0.6/ChainlinkClient.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
-contract Consensus2021ChainlinkWeatherNFT is ERC721, Ownable, ChainlinkClient {
+contract FarmCredibly2022ChainlinkWeatherNFT is ERC721, Ownable, ChainlinkClient {
     using Strings for string;
     bool public overRide;
     string public overRideWeather;
@@ -29,7 +29,7 @@ contract Consensus2021ChainlinkWeatherNFT is ERC721, Ownable, ChainlinkClient {
     event attemptedPassword(bytes32 requestId);
 
     constructor(address _link, address _weatherFeed, address _oracle, bytes32 _jobId, uint256 _fee) public
-        ERC721("Consensus2021ChainlinkWeatherNFT", "wNFT")
+        ERC721("FarmCredibly2022ChainlinkWeatherNFT", "wNFT")
     {   
         if (_link == address(0)) {
             setPublicChainlinkToken();
